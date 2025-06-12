@@ -91,8 +91,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "tqdm", specifier = ">=4.67.1" },
+    { name = "httpx", specifier = "==0.28.1" },
+    { name = "tqdm", specifier = "==4.67.1" },
 ]
 
 [[package]]
