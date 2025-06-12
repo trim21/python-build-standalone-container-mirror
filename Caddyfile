@@ -1,0 +1,5 @@
+:5678 {
+  rewrite /*/(.*)$ /$1
+  root * ./artifact/
+  file_server browse
+}
